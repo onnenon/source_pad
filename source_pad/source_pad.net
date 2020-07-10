@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sonnen/projects/source_pad/source_pad/source_pad.sch)
-    (date "Wed 08 Jul 2020 08:51:40 PM CDT")
+    (date "Thu 09 Jul 2020 06:08:40 PM CDT")
     (tool "Eeschema 5.1.6-1.fc32")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value ProMicro-kbd)
-      (footprint kbd:ProMicro_v3.5)
+      (footprint kbd:ProMicro_v3.5_fix)
       (libsource (lib corne-cherry-rescue) (part ProMicro-kbd) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0658DC))

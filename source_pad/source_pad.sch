@@ -19,7 +19,7 @@ U 1 1 5F0658DC
 P 1700 2550
 F 0 "U1" H 1700 3587 60  0000 C CNN
 F 1 "ProMicro-kbd" H 1700 3481 60  0000 C CNN
-F 2 "kbd:ProMicro_v3.5" H 1800 1500 60  0001 C CNN
+F 2 "kbd:ProMicro_v3.5_fix" H 1800 1500 60  0001 C CNN
 F 3 "" H 1800 1500 60  0000 C CNN
 	1    1700 2550
 	1    0    0    -1  
