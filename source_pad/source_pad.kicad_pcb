@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 146)
     (zones 0)
     (modules 24)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -3616,6 +3616,9 @@
       (net 33 "Net-(U1-Pad24)"))
   )
 
+  (gr_text JLCJLCJLCJLC (at 98.5 150.8) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 85 149) (end 85 89) (layer Edge.Cuts) (width 0.05) (tstamp 5F079C27))
   (gr_line (start 149 153) (end 89 153) (layer Edge.Cuts) (width 0.05) (tstamp 5F079C0F))
   (gr_line (start 153 89) (end 153 149) (layer Edge.Cuts) (width 0.05) (tstamp 5F079C01))
